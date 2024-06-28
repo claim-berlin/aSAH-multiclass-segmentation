@@ -1,0 +1,22 @@
+{
+    "checkpoint_name": "checkpoint_best.pth",
+    "device": "cuda:0",
+    "folder_with_segs_from_prev_stage": null,
+    "list_of_lists_or_source_folder": "/home/orhun/CLAIM_code/SAH-github-repository/sah-segmentation/demo_data/NCCT",
+    "model_training_output_dir": "/home/orhun/CLAIM_code/SAH-github-repository/sah-segmentation/nnUNET_results/Dataset001_SAH/nnUNetTrainer__nnUNetPlans__2d",
+    "num_parts": 1,
+    "num_processes_preprocessing": 3,
+    "num_processes_segmentation_export": 3,
+    "output_folder": "/home/orhun/CLAIM_code/SAH-github-repository/sah-segmentation/demo_data/segmentations",
+    "overwrite": true,
+    "part_id": 0,
+    "perform_everything_on_gpu": true,
+    "save_probabilities": false,
+    "tile_step_size": 0.5,
+    "use_folds": [
+        0
+    ],
+    "use_gaussian": true,
+    "use_mirroring": true,
+    "verbose": false
+}
